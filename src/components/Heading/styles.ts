@@ -4,7 +4,8 @@ import { THEME } from "../../theme"
 export const styles = StyleSheet.create({
     container: {
         width: '100%',
-        padding: 32,
+        paddingHorizontal: 32,
+        paddingVertical: 22
     },
     title: {
         color: THEME.COLORS.TEXT,
